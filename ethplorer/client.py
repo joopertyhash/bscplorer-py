@@ -2,8 +2,8 @@ import requests
 
 
 class Client:
-    API_URL = 'https://api.ethplorer.io'
-    API_KEY = {"apiKey": "freekey"}
+    API_URL = 'https://api.bscscan.com'
+    API_KEY = {"apiKey": "N3ADUJUIZ1DZDRUEV2EUJCT7QBND5NVCT4"}
 
     def __init__(self, url=''):
         self.http_client = requests.session()
